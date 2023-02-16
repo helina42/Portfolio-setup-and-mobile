@@ -1,0 +1,169 @@
+@media only screen and (min-width: 768px) {
+  
+  
+}
+@media only screen and (min-width: 375px) {
+  
+  
+}
+body{
+min-height: 100vh;
+}
+
+.headline{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 24px;
+gap: 12px;
+position: absolute;
+width: 375px;
+height: 604px;
+left: calc(50% - 375px/2);
+top: 92px;
+background-image: url(Images/header-shapes-mobile.png);
+background-repeat: no-repeat;
+}
+
+.header{
+width: 335px;
+height: 170px;   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.info{
+width: 327px;
+height: 170px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+.connect{
+width: 112px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+width: 117px;
+height: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.twitter{
+position: absolute;
+left: 6.4%;
+right: 88.27%;
+top: 75.41%;
+bottom: 18.88%;
+
+}
+
+.linkdin{
+position: absolute;
+left: 17.47%;
+right: 67.2%;
+top: 75.41%;
+bottom: 19.21%;
+
+}
+
+
+.m{
+position: absolute;
+left: 27.47%;
+right: 67.2%;
+top: 75.41%;
+bottom: 19.21%;
+
+
+
+}
+.cat{
+position: absolute;
+left: 38.13%;
+right: 57.07%;
+top: 75.41%;
+bottom: 18.87%;
+
+
+}
+.p{
+position: absolute;
+left: 48%;
+right: 48.22%;
+top: 75.41%;
+bottom: 18.87%;
+
+}
+li{
+	list-style: none;
+}
+
+
+
+.toolbar{
+
+
+display: flex;
+width: 90%;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+align-items: center;
+text-align: center;
+color: #6070FF;
+
+justify-content: space-between;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
