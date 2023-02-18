@@ -6,7 +6,9 @@ body {
   background-color: #e5e5e5;
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  /* stylelint-disable-line block-no-empty */
+}
 
 .headline {
   display: flex;
