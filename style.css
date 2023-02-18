@@ -211,7 +211,8 @@ h1 {
 }
 
 .buttonr:hover {
-  background: #f7f7f9;
+  background: #6070ff;
+  border: 1px solid;
 }
 
 ul ul {
