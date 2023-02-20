@@ -150,9 +150,9 @@ a {
 .lang {
   font-style: normal;
   font-size: 1em;
-  display: flex;
+  /* display: flex; */
   padding: 0;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   width: 80%;
   color: #6070ff;
   margin: 0;
@@ -163,7 +163,10 @@ a {
   border-radius: 8px;
   padding-left: 7px;
   padding-right: 7px;
+  display: flex;
+  justify-content: space-around;
   float: left;
+  margin: 10px;
 }
 
 .hcj p {
