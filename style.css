@@ -415,7 +415,7 @@ textarea::placeholder {
 
 .contact-background {
   position: absolute;
-  left: 0px;
+  left: 0;
   width: 540px;
   height: 520px;
 }
