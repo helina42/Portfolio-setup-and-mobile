@@ -337,7 +337,7 @@ ul ul {
   color: #253858;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
