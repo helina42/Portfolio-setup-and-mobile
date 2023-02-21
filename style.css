@@ -34,6 +34,7 @@ body {
   background-image: url(Images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   margin-top: 0;
+  border-radius: 12px 12px 12px 70px;
 }
 
 .toolbar {
@@ -293,13 +294,13 @@ ul ul {
   margin: 0 auto;
   gap: 50%;
   width: 90%;
-  border-radius: 12px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
   padding: 14px;
   margin-top: 30%;
   background: #fff;
   height: auto;
+  border-radius: 12px 70px 12px 12px;
 }
 
 .header h3 {
@@ -344,11 +345,11 @@ ul ul {
   margin: 0 auto;
   gap: 50%;
   width: 90%;
-  border-radius: 12px;
+  border-radius: 70px 12px 12px 12px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
   padding: 14px;
-  margin-top: 30%;
+  margin-top: 0;
   background: #6070ff;
   height: auto;
   color: #fff;
