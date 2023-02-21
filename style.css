@@ -20,12 +20,15 @@ body {
   place-items: center;
 }
 
+.toolbar p {
+  color: #6070ff;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 0 auto;
-  gap: 1%;
   width: 100%;
   background-color: #fff;
   background-image: url(Images/header-shapes-mobile.png);
@@ -33,24 +36,78 @@ body {
   margin-top: 0;
 }
 
-.header {
+.toolbar {
+  display: flex;
   font-style: normal;
+  font-weight: bold;
+  font-size: 1.1em;
+  align-items: center;
+  color: #6070ff;
+  width: 100.5%;
+  background-color: #fff;
+  margin-bottom: -5px;
+  justify-content: space-around;
+  gap: 50%;
+}
+
+.header {
+  font-style: bold;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5em;
   display: flex;
   align-items: center;
   color: #172b4d;
   width: 80%;
-  margin-left: 7%;
+  margin-left: 16px;
+  margin-top: 120px;
+}
+
+#title {
+  font-size: 1.5em;
+  font-style: bold;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  width: 80%;
+  margin-left: 16px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.abt {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  width: 80%;
+  margin-left: 16px;
+  margin-top: 80px;
+  margin-bottom: 1px;
 }
 
 .info {
   font-style: normal;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 16px;
   color: #344563;
-  width: 80%;
-  margin-left: 7%;
+  width: 90%;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 5px;
+}
+
+.info-abt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  width: 90%;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 5px;
 }
 
 .connect {
@@ -58,7 +115,9 @@ body {
   font-weight: normal;
   font-size: 1.2em;
   color: #7f8cff;
-  margin-left: 7%;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .connect h3 {
@@ -68,29 +127,24 @@ body {
 .icons {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  gap: 22%;
-  margin-left: 60px;
-  padding: 0;
+  align-items: flex-start;
+  gap: 15%;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 120px;
+}
+
+.abt-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 15%;
+  margin-top: 0;
+  margin-left: 5px;
 }
 
 li {
   list-style: none;
-}
-
-.toolbar {
-  display: flex;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.1em;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-  width: 100%;
-  gap: 70%;
-  background-color: #fff;
-  margin-bottom: -5px;
-  justify-content: center;
 }
 
 a {
@@ -101,49 +155,44 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 auto;
+  margin: 16px;
   gap: 50%;
   width: 90%;
   border-radius: 12px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
-  padding: 14px;
-  margin-top: 30%;
   background: #fff;
+  margin-top: 120px;
 }
 
 .tonic {
   align-items: center;
-}
-
-#title {
-  font-size: 1.5em;
-  font-style: bold;
-  font-weight: 900;
+  margin: 16px;
 }
 
 .details {
   font-style: normal;
   font-size: 1em;
   display: flex;
-  padding: 0;
-  justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 0;
+  padding-left: 16px;
+  gap: 5%;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .canopy {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1em;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
   color: #344563;
 }
 
 .spec {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1em;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
   color: #7a869a;
 }
 
@@ -164,7 +213,6 @@ a {
   padding-left: 7px;
   padding-right: 7px;
   display: flex;
-  justify-content: space-around;
 }
 
 .hcj p {
@@ -173,6 +221,7 @@ a {
 
 .see {
   margin: 5%;
+  margin-top: 20px;
 }
 
 .button {
@@ -225,6 +274,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 16px;
 }
 
 .buttonr:hover {
@@ -261,11 +311,12 @@ ul ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 90%;
 }
 
 .options {
-  width: 100%;
-  margin: 0;
+  margin-left: 35px;
+  width: 80%;
   padding: 0;
 }
 
@@ -285,3 +336,5 @@ ul ul {
   border-radius: 12px;
   color: #253858;
 }
+
+
