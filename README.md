@@ -86,12 +86,14 @@ Make sure that you used correct (GitHub flow).
 Make sure that you documented your work.
 Responsive deisign of a portfolio.
 Usage of flexbox
+Responsive Contact form 
 
 - **[No linter errors]**
 - **[Correct (GitHub flow)]**
 - **[Proper documented work]**
 - **Responsive deisign of a portfolio]**
 - **[Usage of flexbox]**
+- **[Responsive Contact form]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -158,6 +160,7 @@ Example command:
 -Minimum mobile screen size should be 375px
 -Minimum desktop screen size should be 768px
 -Use responsive values in your CSS rules, like percentages (i.e. width: 80%), instead of pixels
+-Contact form to portfolio is added.
 
 
 <!--
@@ -239,6 +242,10 @@ Example:
 
 - GitHub: [@helina42](https://github.com/helina42)
 
+**Phone Khaing Hein**
+
+- GitHub: [@Phone Khaing Hein](https://github.com/Rimuru-Tempest-26)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -251,6 +258,7 @@ Example:
 
 - [Add about perivious work ] **[new_feature_1]**
 - [Add more about the person ] **[new_feature_2]**
+- [Add remaining contact form and finish mobile version ] **[new_feature_3]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -280,6 +288,7 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank Microverse for giving me the chance to test myself during this project!.
+>I would like to thank @Phone Khaing Hein for his hollaborative help dufing this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
