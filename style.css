@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
   min-height: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
   overflow-x: hidden;
 }
@@ -34,7 +34,6 @@ body {
   background-image: url(Images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   margin-top: 0;
-  border-radius: 12px 12px 12px 70px;
 }
 
 .toolbar {
@@ -294,13 +293,13 @@ ul ul {
   margin: 0 auto;
   gap: 50%;
   width: 90%;
+  border-radius: 12px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
   padding: 14px;
   margin-top: 30%;
   background: #fff;
   height: auto;
-  border-radius: 12px 70px 12px 12px;
 }
 
 .header h3 {
@@ -345,82 +344,11 @@ ul ul {
   margin: 0 auto;
   gap: 50%;
   width: 90%;
-  border-radius: 70px 12px 12px 12px;
+  border-radius: 12px;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
   padding: 14px;
-  margin-top: 0;
-  background: #6070ff;
+  margin-top: 30%;
+  background: #fff;
   height: auto;
-  color: #fff;
-}
-
-.contact-head {
-  text-align: center;
-}
-
-.contact-info {
-  text-align: center;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 20px;
-  width: 100%;
-}
-
-input {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  padding: 15px 0 15px 16px;
-  width: inherit;
-}
-
-textarea {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  padding: 15px 0 15px 16px;
-  width: inherit;
-}
-
-textarea::placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  font-family: "Poppins", sans-serif;
-}
-
-.contact-button {
-  padding: 12px 16px;
-  background: #fff;
-  border-radius: 8px;
-  border: none;
-}
-
-.contact-button:hover {
-  background: #6070ff;
-  color: #fff;
-  border-radius: 12px;
-}
-
-.contact-button:active {
-  background: #2230d2;
-  border-radius: 12px;
-  color: #fff;
-}
-
-.contact-background {
-  position: absolute;
-  left: 0;
-  width: 540px;
-  height: 520px;
-}
-
-.contact-description {
-  z-index: 1;
 }
